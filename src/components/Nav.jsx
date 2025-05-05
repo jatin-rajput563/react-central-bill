@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-
+import logo from '../images/svg/Nav-logo.svg'
+import CommonButton from './common/CommonButton';
 const Nav = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
@@ -16,11 +17,11 @@ const Nav = () => {
     };
 
     return (
-        <nav className="py-[20px] px-[20px] w-full bg-black">
+        <nav className="py-[20px] px-[20px] w-full">
             <div className="container max-w-[1140px] mx-auto">
                 <div className="flex items-center justify-between w-full">
                     <a className="text-white font-semibold text-lg no-underline z-10" href="">
-                        logo
+                        <img src={logo} alt="" />
                     </a>
 
                     <ul className={`fixed lg:static flex justify-center items-center flex-col lg:flex-row w-full lg:w-auto bg-[#00243C] lg:bg-transparent top-0 bottom-0 right-0 transform ${isNavOpen ? 'translate-x-0' : 'translate-x-full lg:translate-x-0'} transition-transform duration-300 z-20 p-8 lg:p-0 gap-6 lg:gap-6`}>
@@ -50,22 +51,24 @@ const Nav = () => {
                     </ul>
                     <ul className='max-lg:hidden block'>
                         <li className="mt-4 lg:mt-0">
-                            <button className="bg-white text-[#00171F] px-4 py-2 rounded-lg flex items-center">
+                            {/* <button className="bg-white text-[#00171F] px-4 py-2 rounded-lg flex items-center">
                                 Get Started
                                 <span className="ml-2">
                                     <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 14.3691L14 1.36914M14 1.36914V13.8491M14 1.36914H1.52" stroke="#00171F" strokeWidth="1.93338" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                 </span>
-                            </button>
+                            </button> */}
+                            <CommonButton btnText="Get Started" btnClass="bg-white !text-black "/>
                         </li>
                     </ul>
 
                     <div onClick={toggleNavbar} className="lg:hidden z-30 cursor-pointer flex flex-col gap-1">
                         <span className={`w-8 h-1 rounded bg-white transition-transform duration-300 origin-left ${isNavOpen ? 'rotate-[32deg]' : ''}`}></span>
-                        <span className={`w-8 h-1 rounded bg-white transition-all duration-300 ${isNavOpen ? 'bg-transparent' : ''}`}></span>
+                        <span className={`w-8 h-1 rounded transition-all duration-300 ${isNavOpen ? 'bg-transparent' : 'bg-white'}`}></span>
                         <span className={`w-8 h-1 rounded bg-white transition-transform duration-300 origin-left ${isNavOpen ? '-rotate-[32deg]' : ''}`}></span>
                     </div>
+
                 </div>
             </div>
         </nav>
