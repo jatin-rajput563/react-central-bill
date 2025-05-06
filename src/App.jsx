@@ -1,4 +1,5 @@
 import './App.css'
+import ChoosseUs from './components/ChoosseUs'
 import Energy from './components/Energy'
 import Header from './components/Header'
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <Energy />
+      <ChoosseUs />
     </>
   )
 }
