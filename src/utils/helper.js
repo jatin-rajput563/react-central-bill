@@ -59,4 +59,11 @@ export const SLIDER_DATA = [
         svg: starSvg,
         para: "Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum."
     },
+    {
+        img: RonaldImg,
+        name: "Ronald",
+        description: "@ronald",
+        svg: starSvg,
+        para: "Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum."
+    },
 ]
