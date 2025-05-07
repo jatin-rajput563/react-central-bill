@@ -9,8 +9,8 @@ import joinleft from '../images/png/join-left-img.png'
 
 const Footer = () => {
     return (
-        <div className="min-h-[643px] bg-[url(../src/images/png/footer-bg.png)] bg-cover bg-center bg-no-repeat">
-            <div className='max-w-[1140px] w-full py-[54px] flex flex-col mx-auto bg-[#EAF9FF] rounded-[4px] relative'>
+        <div className="bg-[url(../src/images/png/footer-bg.png)] bg-cover bg-center bg-no-repeat">
+            <div className='max-w-[1140px] w-full py-[54px] flex flex-col mx-auto bg-[#EAF9FF] rounded-[4px] relative translate-y-[-50%]'>
                 <img className='max-w-[300px] w-full absolute top-0 right-0' src={joinRight} alt="" />
                 <img className='max-w-[300px] w-full absolute bottom-0 left-0' src={joinleft} alt="" />
                 <CommonHeadText HeadText="Join Our" SpanText="Newsletter" HeadClass="!text-black text-center" />
@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="max-w-[1140px] mx-auto px-3">
-                <div className='flex justify-between flex-wrap pt-[68px]'>
+                <div className='flex justify-between flex-wrap'>
                     <div>
                         <a href="#">
                             <img src={logo} alt="logo" />
