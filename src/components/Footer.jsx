@@ -56,7 +56,7 @@ const Footer = () => {
                         </div>
 
                     </div>
-                    <div className='flex gap-[78px]'>
+                    <div className='flex gap-[78px] max-[640px]:pt-[40px]'>
                         <div>
                             <p className='font-bold text-[20px] leading-[150%] text-white family pb-[12px]'>Quick Link</p>
                             <ul className='flex flex-col gap-[14px]'>

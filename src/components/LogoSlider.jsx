@@ -19,11 +19,19 @@ const LogoSlider = () => {
                     <Swiper
                         spaceBetween={0}
                         slidesPerView={7}
+                        centeredSlides={true}
                         loop={true}
+
                         autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: false,
+                            delay: 100,
+                            disableOnInteraction: true,
                         }}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        navigation={true}
+                        modules={[Autoplay, Pagination, Navigation]}
+                        className="mySwiper"
                         onSlideChange={() => console.log('slide change')}
                         onSwiper={(swiper) => console.log(swiper)}
                         breakpoints={{
