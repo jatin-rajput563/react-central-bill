@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { planComparisons } from '../utils/helper';
-import Comparisonain from '../images/png/Comparison-main-img.png';
+// import Comparisonain from '../images/png/Comparison-main-img.png';
 import CloseArrow from '../images/svg/close.svg';
 import OpenArrow from '../images/svg/open.svg';
 import CommonHeadText from './common/CommonHeadText';
@@ -83,7 +83,7 @@ const Comparison = () => {
                         </div>
                     </div>
                     <div className='lg:w-6/12 flex justify-end pt-12 max-lg:justify-center max-lg:pt-10'>
-                        <img src={Comparisonain} alt="designer" className="max-w-[530px] max-lg:mx-auto max-xl:max-w-[465px] max-lg:w-full pointer-events-none transition-transform duration-700 hover:scale-105" />
+                        <img src='./src/images/png/comparison-main-img.png' alt="designer" className="max-w-[530px] max-lg:mx-auto max-xl:max-w-[465px] max-lg:w-full pointer-events-none transition-transform duration-700 hover:scale-105" />
                     </div>
                 </div>
             </div>
