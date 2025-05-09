@@ -9,8 +9,8 @@ const Switch = () => {
     return (
         <>
             <div className="max-w-[1440px] mx-auto">
-                <CommonHeadText HeadText="Simple Steps To" SpanText="Switch" HeadClass="!text-black text-center " />
-                <CommonPara text="Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum" textClass="!text-[#4B4B4B] max-w-[610px] text-center mx-auto pt-[16px] pb-[58px]" />
+                <CommonHeadText HeadText="Simple Steps To" SpanText="Switch" HeadClass="!text-black text-center max-lg:!text-[43px]" />
+                <CommonPara text="Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum" textClass="!text-[#4B4B4B] max-w-[610px] text-center mx-auto pt-[16px] max-lg:!text-[14px] pb-[58px] max-lg:pb-[25px]" />
                 <Swiper
                     spaceBetween={0}
                     slidesPerView={4}
