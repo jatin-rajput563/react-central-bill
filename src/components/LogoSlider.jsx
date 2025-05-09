@@ -14,7 +14,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 const LogoSlider = () => {
     return (
         <>
-            <div className="pt-[64px]">
+            <div className="pt-[250px] max-lg:pt-[50px]">
                 <div className='max-w-[1140px] mx-auto px-3'>
                     <Swiper
                         spaceBetween={0}

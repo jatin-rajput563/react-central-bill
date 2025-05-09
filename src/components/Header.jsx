@@ -8,7 +8,7 @@ import dotsImg from '../images/png/dots-img.png'
 const Header = () => {
     return (
         <>
-            <div className="min-h-screen bg-[url(./images/png/header-bg.png)] bg-no-repeat bg-[length:100%_100%] bg-center">
+            <div className="min-h-screen bg-[url(./images/png/header-bg.png)] bg-no-repeat min-lg:bg-[length:100%_100%] max-lg:bg-cover bg-center">
                 <Nav />
                 <div className="max-w-[1140px] mx-auto px-4">
                     <div className="flex flex-row flex-wrap -mx-3 pt-[109px] max-md:pt-[50px]">
@@ -21,7 +21,7 @@ const Header = () => {
                                     <CommonButton btnText="Compare" btnClass=" !bg-[#00A8E8] absolute  top-[47%] right-[2%]" />
                                 </div>
                             </div>
-                            <p className='absolute -bottom-80 left-0 font-normal text-[38px] max-w-[548px] leading-[110%]'>More than <span className='text-[#00A8E8]'>80,000+ </span> companies trust bill central </p>
+                            <p className='min-lg:absolute -bottom-80 left-0 font-normal text-[38px] max-w-[548px] leading-[110%] max-lg:text-white max-lg:text-center max-lg:mx-auto max-lg:py-4'>More than <span className='text-[#00A8E8]'>80,000+ </span> companies trust bill central </p>
                         </div>
                         <div className="w-12/12 min-lg:w-6/12 relative ">
                             <div className='mx-auto flex justify-center mt-[10px]'>
