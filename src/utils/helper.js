@@ -6,6 +6,10 @@ import img1 from "../images/png/slider-img-1.png";
 import img2 from "../images/png/slider-img-2.png";
 import img3 from "../images/png/slider-img-3.png";
 import img4 from "../images/png/slider-img-4.png";
+import electricitySvg from '../images/svg/electricity.svg';
+import gasSvg from '../images/svg/gas.svg';
+import internetSvg from '../images/svg/interplan.svg';
+import bundleSvg from '../images/svg/bundle.svg';
 
 export const SLIDER_DATA = [
     {
@@ -78,4 +82,35 @@ export const IMG_DATA = [
         para: '4. Choose the Best Plan',
         description: 'Complete the process in just a few clicks. We’ll handle the rest and ensure a smooth transition to your new provider.',
     }
+];
+
+export const planComparisons = [
+    {
+        id: 1,
+        title: 'Electricity Plan Comparisons',
+        description: "Whether you want renewable energy, low rates, or flexible contracts, we'll help you find the best provider.",
+        img: electricitySvg,
+        marginClass: 'ml-[106px] max-xl:ml-[53px] max-sm:ml-0 max-lg:ml-[253px]',
+    },
+    {
+        id: 2,
+        title: 'Gas Plan Comparisons',
+        description: 'Compare gas plans to find the best rates and providers for your needs.',
+        img: gasSvg,
+        marginClass: 'ml-[163px] max-xl:ml-[113px] max-sm:ml-[11px] max-lg:ml-[313px]',
+    },
+    {
+        id: 3,
+        title: 'Internet Plan Comparisons',
+        description: 'Find the best internet plans with fast speeds and great customer support.',
+        img: internetSvg,
+        marginClass: 'ml-[127px] max-xl:ml-[78px] max-sm:ml-0 max-lg:ml-[277px]',
+    },
+    {
+        id: 4,
+        title: 'Bundle Packages',
+        description: 'Get the best value by bundling utilities and services together.',
+        img: bundleSvg,
+        marginClass: 'ml-[220px] max-xl:ml-[175px] max-sm:ml-[61px] max-lg:ml-[375px]',
+    },
 ];
