@@ -13,10 +13,10 @@ const Footer = () => {
             <div className='max-w-[1140px] w-full py-[54px] flex flex-col mx-auto bg-[#EAF9FF] rounded-[4px] relative translate-y-[-50%]'>
                 <img className='max-w-[300px] w-full absolute top-0 right-0' src={joinRight} alt="" />
                 <img className='max-w-[300px] w-full absolute bottom-0 left-0' src={joinleft} alt="" />
-                <CommonHeadText HeadText="Join Our" SpanText="Newsletter" HeadClass="!text-black text-center" />
+                <CommonHeadText HeadText="Join Our" SpanText="Newsletter" HeadClass="!text-black text-center max-lg:!text-[42px]" />
                 <CommonPara text="Stay up to date with the latest deals, energy-saving tips, and exclusive offers! Sign up for
                  our newsletter and never miss out on great savings opportunities again." textClass="max-w-[620px] !text-black text-center mx-auto pt-[16px]" />
-                <div className='relative max-w-[476px] flex w-full mx-auto mt-[38px]'>
+                <div className='relative max-w-[476px] flex w-full mx-auto mt-[38px] max-lg:!text-[12px]'>
                     <input type="text" className='bg-white w-full max-w-[476px] h-[66px] rounded-[100px] rounded-tl-[0] !rounded-bl-[70px] pl-[22px] font-normal text-[16px] leading-[110%] family' placeholder='Start typing your address' />
                     <CommonButton btnText="Compare" btnClass="!bg-[#007EA7] absolute" />
                 </div>

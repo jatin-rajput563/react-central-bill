@@ -17,7 +17,7 @@ const LogoSlider = () => {
             <div className="pt-[250px] max-lg:pt-[50px]">
                 <div className='max-w-[1140px] mx-auto px-3'>
                     <Swiper
-                        spaceBetween={0}
+                        spaceBetween={51}
                         slidesPerView={7}
                         centeredSlides={true}
                         loop={true}
@@ -50,28 +50,44 @@ const LogoSlider = () => {
                         }}
                     >
                         <SwiperSlide>
-                            <img src={energy} alt="slider-img" />
+                            <div className='justify-center flex items-center max-w-[126.67px] h-[62px]'>
+                                <img src={energy} alt="slider-img" />
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src={blueNRG} alt="slider-img" />
+                            <div className='justify-center flex items-center w-full max-w-[126.67px] h-[62px]'>
+                                <img src={blueNRG} alt="slider-img" />
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src={dodo} alt="slider-img" />
+                            <div className='justify-center flex items-center w-full max-w-[126.67px] h-[62px]'>
+                                <img src={dodo} alt="slider-img" />
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src={origin} alt="slider-img" />
+                            <div className='justify-center flex items-center w-full max-w-[126.67px] h-[62px]'>
+                                <img src={origin} alt="slider-img" />
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src={ovo} alt="slider-img" />
+                            <div className='justify-center flex items-center w-full max-w-[126.67px] h-[62px]'>
+                                <img src={ovo} alt="slider-img" />
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src={sumo} alt="slider-img" />
+                            <div className='justify-center flex items-center w-full max-w-[126.67px] h-[62px]'>
+                                <img src={sumo} alt="slider-img" />
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src={agl} alt="slider-img" />
+                            <div className='justify-center flex items-center w-full max-w-[126.67px] h-[62px]'>
+                                <img src={agl} alt="slider-img" />
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src={origin} alt="slider-img" />
+                            <div className='justify-center flex items-center h-[62px]'>
+                                <img src={origin} alt="slider-img" />
+                            </div>
                         </SwiperSlide>
                     </Swiper>
                 </div>
