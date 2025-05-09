@@ -30,7 +30,7 @@ const Energy = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <CommonButton btnText="Compare With Us" btnClass=" !bg-[#00A8E8] mt-[42px]" customClass1={"!block"} />
+                            <CommonButton btnText="Compare With Us" btnClass="!bg-[#00A8E8] mt-[42px] max-lg:justify-center max-lg:mx-auto max-lg:lex " customClass1={"!block"} />
                         </div>
                     </div>
                 </div>
