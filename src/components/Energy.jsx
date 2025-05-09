@@ -2,6 +2,7 @@ import React from 'react'
 import mainImg from '../images/png/energy-mian-img.png'
 import CommonHeadText from './common/CommonHeadText'
 import CommonPara from './common/CommonPara'
+import CommonButton from './common/CommonButton'
 
 const Energy = () => {
     return (
@@ -29,6 +30,7 @@ const Energy = () => {
                                     </li>
                                 </ul>
                             </div>
+                            <CommonButton btnText="Compare With Us" btnClass=" !bg-[#00A8E8] mt-[42px]" customClass1={"!block"} />
                         </div>
                     </div>
                 </div>

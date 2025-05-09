@@ -18,7 +18,7 @@ const Header = () => {
                                 <CommonPara text="Find and switch to the best energy, gas, and internet plans with ease. Our platform simplifies your search, letting you compare providers and make informed decisions, all in one place." textClass="max-w-[506px] !leading-[150%] pt-[16px] max-lg:text-center max-lg:mx-auto" />
                                 <div className='relative max-w-[476px] flex max-lg:mx-auto'>
                                     <input type="text" className='bg-white w-full max-w-[476px] h-[66px] rounded-[100px] rounded-tl-[0] !rounded-bl-[70px] pl-[22px] font-normal text-[16px] leading-[110%] mt-10 family' placeholder='Start typing your address' />
-                                    <CommonButton btnText="Compare" btnClass=" !bg-[#00A8E8] absolute  top-[47%] right-[2%]" />
+                                    <CommonButton btnText="Compare" btnClass=" !bg-[#00A8E8] absolute  top-[47%] right-[2%]"  customClass1={"!block"}/>
                                 </div>
                             </div>
                             <p className='min-lg:absolute -bottom-80 left-0 font-normal text-[38px] max-w-[548px] leading-[110%] max-lg:text-white max-lg:text-center max-lg:mx-auto max-lg:py-4'>More than <span className='text-[#00A8E8]'>80,000+ </span> companies trust bill central </p>

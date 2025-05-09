@@ -18,7 +18,7 @@ const Footer = () => {
                  our newsletter and never miss out on great savings opportunities again." textClass="max-w-[620px] !text-black text-center mx-auto pt-[16px]" />
                 <div className='relative max-w-[476px] flex w-full mx-auto mt-[38px] max-lg:!text-[12px]'>
                     <input type="text" className='bg-white w-full max-w-[476px] h-[66px] rounded-[100px] rounded-tl-[0] !rounded-bl-[70px] pl-[22px] font-normal text-[16px] leading-[110%] family' placeholder='Start typing your address' />
-                    <CommonButton btnText="Compare" btnClass="!bg-[#007EA7] absolute" />
+                    <CommonButton btnText="Submit" btnClass="!py-[11.5px] !px-[21.6px] !bg-[#00A8E8] mt-[42px] absolute top-[-50%] right-[2%]" customClass1={"!block"} />
                 </div>
             </div>
             <div className="max-w-[1140px] mx-auto px-3">

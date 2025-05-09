@@ -39,27 +39,13 @@ const Nav = () => {
                             <a className="no-underline hover:underline text-white font-semibold text-lg" href="/">FAQ</a>
                         </li>
                         <li className="mt-4 lg:mt-0 min-lg:hidden">
-                            <button className="bg-white text-[#00171F] px-4 py-2 rounded-lg flex items-center">
-                                Get Started
-                                <span className="ml-2">
-                                    <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 14.3691L14 1.36914M14 1.36914V13.8491M14 1.36914H1.52" stroke="#00171F" strokeWidth="1.93338" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg>
-                                </span>
-                            </button>
+                            <CommonButton btnText="Get Started" btnClass="bg-white !text-black " customClass2={'!block'} />
+
                         </li>
                     </ul>
                     <ul className='max-lg:hidden block'>
                         <li className="mt-4 lg:mt-0">
-                            {/* <button className="bg-white text-[#00171F] px-4 py-2 rounded-lg flex items-center">
-                                Get Started
-                                <span className="ml-2">
-                                    <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 14.3691L14 1.36914M14 1.36914V13.8491M14 1.36914H1.52" stroke="#00171F" strokeWidth="1.93338" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg>
-                                </span>
-                            </button> */}
-                            <CommonButton btnText="Get Started" btnClass="bg-white !text-black "/>
+                            <CommonButton btnText="Get Started" btnClass="bg-white !text-black " customClass2={'!block'} />
                         </li>
                     </ul>
 

@@ -26,3 +26,14 @@ export const FACEBOOK = () => (
         <path d="M12.1977 11.3254H14.2912L15.1286 7.97581H12.1977V6.30101C12.1977 5.43849 12.1977 4.62621 13.8725 4.62621H15.1286V1.81255C14.8556 1.77654 13.8248 1.69531 12.7362 1.69531C10.4626 1.69531 8.84814 3.08288 8.84814 5.63109V7.97581H6.33594V11.3254H8.84814V18.4433H12.1977V11.3254Z" fill="#FCFCFC" />
     </svg>
 );
+export const BlackArrow = () => (
+    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6 19.3691L19 6.36914M19 6.36914V18.8491M19 6.36914H6.52" stroke="#00171F" stroke-width="1.93338" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+);
+
+export const WhiteArrow = () => (
+    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6 19.3691L19 6.36914M19 6.36914V18.8491M19 6.36914H6.52" stroke="white" stroke-width="1.93338" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+);
