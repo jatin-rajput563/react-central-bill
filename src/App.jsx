@@ -6,6 +6,7 @@ import Header from './components/Header'
 import LogoSlider from './components/LogoSlider'
 import Questions from './components/Questions'
 import Slider from './components/Slider'
+import Switch from './components/Switch'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <LogoSlider />
       <Energy />
+      <Switch />
       <ChoosseUs />
       <Slider />
       <Questions />
