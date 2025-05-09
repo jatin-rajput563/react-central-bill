@@ -1,13 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { planComparisons } from '../utils/helper';
-// import Comparisonain from '../images/png/Comparison-main-img.png';
 import CloseArrow from '../images/svg/close.svg';
 import OpenArrow from '../images/svg/open.svg';
 import CommonHeadText from './common/CommonHeadText';
 
 const Comparison = () => {
     const [openSection, setOpenSection] = useState(1);
-    const contentRefs = useRef({}); // store refs for each section
+    const contentRefs = useRef({});
 
     const toggleMenu = (menu) => {
         setOpenSection((prev) => (prev === menu ? null : menu));
@@ -33,7 +32,7 @@ const Comparison = () => {
             <div className="container max-w-[1140px] mx-auto px-3">
                 <div className="lg:flex justify-between items-start ">
                     <div className='lg:w-6/12 w-full'>
-                        <CommonHeadText HeadText="Comprehensive Utility" headingSpanText="Comparisons" className="lg:!max-w-[456px] max-lg:flex max-lg:justify-center max-lg:mx-auto !pb-[46px] max-md:!pb-7" />
+                        <CommonHeadText HeadText="Comprehensive Utility" SpanText="Comparisons" HeadClass="!text-black max-lg:text-center pb-[46px] max-lg:!text-[35px]" />
                         <div className="space-y-6">
                             {planComparisons.map((plan) => (
                                 <div

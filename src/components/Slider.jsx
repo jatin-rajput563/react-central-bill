@@ -11,13 +11,13 @@ import { SLIDER_DATA } from '../utils/helper';
 const Slider = () => {
     return (
         <>
-            <div className=" py-[160px] relative">
+            <div className=" py-[160px] max-lg:py-[50px] relative">
                 {/* <img className='absolute left-[13%] top-[55%] py-[8.5px] px-[13.5px] border rounded-full hover:bg-black transition-all' src={leftArrow} alt="left-arrow" />
                 <img className='absolute right-[13%] top-[55%] py-[8.5px] px-[13.5px] border rounded-full hover:bg-black transition-all' src={rightArrow} alt="left-arrow" /> */}
                 <div className="max-w-[1140px] mx-auto px-3">
-                    <CommonHeadText HeadText="Our " SpanText="Testimonials" HeadClass="!text-black text-center" />
+                    <CommonHeadText HeadText="Our " SpanText="Testimonials" HeadClass="!text-black text-center max-lg:!text-[40px]" />
                     <CommonPara text="Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
-                     consectetur mi. Vulputate sapien a a bibendum" textClass="!text-[#00171F] max-w-[490px] text-center mx-auto pt-[16px] leading-[150%] mb-[62px]" />
+                     consectetur mi. Vulputate sapien a a bibendum" textClass="!text-[#00171F] max-lg:!text-[14px] max-w-[490px] text-center mx-auto pt-[16px] leading-[150%] mb-[62px] max-lg:pb-[40px]" />
                     <div>
                         <Swiper
                             spaceBetween={24}

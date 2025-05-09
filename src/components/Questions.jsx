@@ -20,8 +20,8 @@ const Questions = () => {
         <div className="pb-[52px]">
             <div className="max-w-[1140px] mx-auto px-3">
                 <div>
-                    <CommonHeadText HeadText="Frequently Asked" HeadClass="!text-black text-center" SpanText="Questions" />
-                    <CommonPara text="Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum" textClass="!text-[#00171F] pt-[16px] max-w-[556px] text-center mx-auto " />
+                    <CommonHeadText HeadText="Frequently Asked" HeadClass="!text-black text-center max-lg:!text-[43px]" SpanText="Questions" />
+                    <CommonPara text="Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum" textClass="!text-[#00171F] pt-[16px] max-lg:!text-[14px] max-w-[556px] text-center mx-auto " />
                 </div>
                 <div className="flex justify-center items-center pb-10 sm:pb-20 md:pb-30 lg:pb-40.5 mt-[52px]">
                     <div className="w-[916px] max-lg:px-3">
@@ -32,7 +32,7 @@ const Questions = () => {
                             >
                                 <button
                                     onClick={() => toggleAccordion(index)}
-                                    className="font-family-primary font-normal text-lg sm:text-2xl leading-[110%] w-full cursor-pointer flex justify-between items-center text-start"
+                                    className="family font-normal text-[24px] max-lg:!text-[14px] leading-[110%] w-full cursor-pointer flex justify-between items-center text-start"
                                 >
                                     <span>{item.para}</span>
                                     <span className="ml-3 w-7 h-7 border-[2px] rounded-full flex justify-center items-center">
@@ -49,7 +49,7 @@ const Questions = () => {
                                             : '0px'
                                     }}
                                 >
-                                    <div className="font-family-primary font-normal text-base leading-[150%] mt-3.5 max-w-[722px]">
+                                    <div className="family font-normal text-[16px] max-lg:!text-[12px] leading-[150%] mt-3.5 max-w-[722px]">
                                         {item.text}
                                     </div>
                                 </div>
